@@ -9,7 +9,7 @@ const Navbar = () => {
     <>
       <nav className='w-full flex items-center justify-end pt-7 px-14'>
         <section className='lg:flex items-center gap-7 text-lg font-medium hidden'>
-          <Link className='hover:scale-110 duration-500 transition' to='/'>Works</Link>
+          <Link className='hover:scale-110 duration-500 transition' to='/work'>Works</Link>
           <Link className='hover:scale-110 duration-500 transition' to='/blog'>Blog</Link>
           <Link className='hover:scale-110 duration-500 transition' to='/contact'>Contact</Link>
         </section>
